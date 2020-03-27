@@ -210,7 +210,7 @@ print(len(train_X))
 
 def train(net):    
     BATCH_SIZE = 100
-    EPOCHS = 1
+    EPOCHS = 5
     for epoch in range(EPOCHS):
         for i in tqdm(range(0,len(train_X),BATCH_SIZE)):
             batch_X = train_X[i:i+BATCH_SIZE].view(-1,1,50,50)
