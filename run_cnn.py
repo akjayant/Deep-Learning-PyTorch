@@ -90,9 +90,9 @@ training_data = np.load("training_data.npy",allow_pickle=True)
 # In[6]:
 
 
-import matplotlib.pyplot as plt
-plt.imshow(training_data[2][0],cmap="gray")
-plt.show()
+#import matplotlib.pyplot as plt
+#plt.imshow(training_data[2][0],cmap="gray")
+#plt.show()
 
 
 # #### CNN Architecture 
